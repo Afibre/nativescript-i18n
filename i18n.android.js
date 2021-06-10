@@ -1,6 +1,6 @@
 require('globals');
-const application = require("tns-core-modules/application");
-const utils = require('tns-core-modules/utils/utils');
+const application = require("@nativescript/core/application");
+const utils = require('@nativescript/core/utils/utils');
 const format = require('format');
 
 const context = utils.ad.getApplicationContext();

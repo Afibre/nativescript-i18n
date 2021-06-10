@@ -1,7 +1,7 @@
-/// <reference path="./node_modules/tns-platform-declarations/ios.d.ts" />
+/// <reference path="./node_modules/@nativescript/types/index.d.ts" />
 
 require('globals');
-const application = require("tns-core-modules/application");
+const application = require("@nativescript/core/application");
 const format = require('format');
 
 const bundle = NSBundle.mainBundle;

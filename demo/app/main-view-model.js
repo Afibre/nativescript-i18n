@@ -1,4 +1,4 @@
-var Observable = require("tns-core-modules/data/observable").Observable;
+var Observable = require("@nativescript/core").Observable;
 
 function createViewModel() {
   var viewModel = new Observable();
